@@ -62,3 +62,7 @@ djangoRentalAPI es una API RESTful para gestionar ofertas de alquiler de propied
 ## Autenticación
 
 La API utiliza autenticación básica proporcionada por Django REST Framework. Para acceder a los endpoints protegidos, debes autenticarte con un nombre de usuario y contraseña.
+
+## Agradecimientos
+
+Este proyecto fue desarrollado siguiendo el tutorial [Building APIs With Django REST Framework](https://blog.jetbrains.com/pycharm/2023/09/building-apis-with-django-rest-framework) por Denis Mashutin. Agradezco a Denis Mashutin por su excelente guía.
