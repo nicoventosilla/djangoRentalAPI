@@ -19,6 +19,6 @@ from django.urls import path, include
 
 urlpatterns = [
     #    path('admin/', admin.site.urls),
-    path('', include('rental.urls')),
-    path('api-auth/', include('rest_framework.urls')),
+    path('', include('rental.urls')),  # Incluir las URLs de la aplicación rental
+    path('api-auth/', include('rest_framework.urls')),  # URL para autenticación de la API
 ]

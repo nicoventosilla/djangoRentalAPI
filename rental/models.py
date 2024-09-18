@@ -1,6 +1,5 @@
 from django.db import models
 
-# Create your models here.
 # Opciones para el tamaño de la propiedad
 SIZE_CHOICES = [
     ('ST', 'Studio'),
